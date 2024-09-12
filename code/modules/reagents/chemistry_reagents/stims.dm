@@ -71,3 +71,81 @@
 		PROPERTY_HYPERDENSIFICATING = 1,
 		PROPERTY_ORGANSTABILIZE = 1,
 	)
+
+/datum/reagent/stimulant/greater_resin
+	name = "Fruit Resin Compound"
+	id = "compound_resin"
+	description = "A compound created from fruit resin, a product of X-121 hives. "
+	color = "#"
+	chemclass = CHEM_CLASS_SPECIAL
+	overdose = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	overdose_critical = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	jitter = FALSE
+	flags = REAGENT_TYPE_STIMULANT
+	properties = list(
+		PROPERTY_NEOGENETIC = 5,
+		PROPERTY_ANTICORROSIVE = 5,
+		PROPERTY_NUTRITIOUS = 3,
+		PROPERTY_HEMOGENIC = 2,
+	)
+
+/datum/reagent/stimulant/unstable_resin
+	name = "Concentrated Fruit Resin"
+	id = "concentrated_resin"
+	description = ""
+	color = "#11916b"
+	chemclass = CHEM_CLASS_SPECIAL
+	overdose = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	overdose_critical = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	jitter = FALSE
+	flags = REAGENT_TYPE_STIMULANT
+	properties = list(
+		PROPERTY_HYPERDENSIFICATING = 1
+
+	)
+
+/datum/reagent/stimulant/spore_resin
+	name = "Concentrated Fruit Resin"
+	id = "spore_resin_drug"
+	description = ""
+	color = "#914011"
+	chemclass = CHEM_CLASS_SPECIAL
+	overdose = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	overdose_critical = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	jitter = FALSE
+	properties = list(
+		PROPERTY_ORGANSTABILIZE = 6
+
+	)
+
+/datum/reagent/stimulant/speed_resin
+	name = "X-C10H15N-A2 (Blood Shot)"
+	id = "xeno_meth"
+	description = "An experimental cocktail of drugs. Regular use may lead to cardiac arrest due to extreme cardiac muscel strain from the massivly increased heart beat rate. Advised to be taken along lots of water."
+	color = "#990000"
+	chemclass = CHEM_CLASS_SPECIAL
+	overdose = LOWH_REAGENTS_OVERDOSE
+	overdose_critical = MED_REAGENTS_OVERDOSE
+	jitter = 3
+	flags = REAGENT_TYPE_STIMULANT
+	properties = list(
+		PROPERTY_EUPHORIC = 10,
+		PROPERTY_MUSCLESTIMULATING = 10,
+		PROPERTY_NERVESTIMULATING = 2,
+		PROPERTY_CORROSIVE = 3,
+		PROPERTY_CARDIOTOXIC = 0.5,
+		PROPERTY_HEMOLYTIC = 1.5 //Blood is fuel!
+	)
+
+/datum/reagent/stimulant/plasma_resin
+	name = "Concentrated Fruit Resin"
+	id = "plasma_resin_drug"
+	description = ""
+	color = "#"
+	chemclass = CHEM_CLASS_SPECIAL
+	overdose = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	overdose_critical = LOWM_REAGENTS_OVERDOSE_CRITICAL
+	jitter = FALSE
+	properties = list(
+
+	)

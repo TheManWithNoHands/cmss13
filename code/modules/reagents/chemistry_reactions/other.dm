@@ -472,3 +472,38 @@
 	result = "eggplasma"
 	required_reagents = list("blood" = 10, "eggplasma" = 1)
 	result_amount = 2
+
+/datum/chemical_reaction/greater_resin
+	name = "Anti-Neurotoxin"
+	id = "compound_resin"
+	result = "compound_resin"
+	required_reagents = list("neurotoxinplasma" = 1, "anti_toxin" = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/unstable_resin
+	name = "Anti-Neurotoxin"
+	id = "unstable_resin_drug"
+	result = "antineurotoxin"
+	required_reagents = list("neurotoxinplasma" = 1, "anti_toxin" = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/spore_resin
+	name = "Anti-Neurotoxin"
+	id = "spore_resin_drug"
+	result = "spore_resin_drug"
+	required_reagents = list("neurotoxinplasma" = 1, "anti_toxin" = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/speed_resin
+	name = "X-C10H15N-A2 (Blood Shot)"
+	id = "xeno_meth"
+	result = "xeno_meth"
+	required_reagents = list("neurotoxinplasma" = 1, "anti_toxin" = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/plasma_resin
+	name = "Anti-Neurotoxin"
+	id = "plasma_resin_drug"
+	result = "plasma_resin_drug"
+	required_reagents = list("neurotoxinplasma" = 1, "anti_toxin" = 1)
+	result_amount = 1

@@ -1067,5 +1067,71 @@
 	overdose = MED_REAGENTS_OVERDOSE
 	overdose_critical = MED_REAGENTS_OVERDOSE_CRITICAL
 	chemclass = CHEM_CLASS_SPECIAL
-	properties = list(PROPERTY_TRANSFORMATIVE = 4, PROPERTY_NUTRITIOUS = 3, PROPERTY_HEMOGENIC = 1)
+	properties = list(
+		PROPERTY_TRANSFORMATIVE = 4,
+		PROPERTY_NUTRITIOUS = 3,
+		PROPERTY_HEMOGENIC = 1,)
+	flags = REAGENT_SCANNABLE
+
+/datum/reagent/unstable_fruit_resin
+	name = "Unstable Fruit Resin"
+	id = "unstable_fruit_resin"
+	description = "A strange turquoise fluid found in certain xenomorphic structures. Seems to have resilient properties."
+	reagent_state = LIQUID
+	nutriment_factor = 15 * REAGENTS_METABOLISM
+	color = "#11916b"
+	overdose = MED_REAGENTS_OVERDOSE
+	overdose_critical = MED_REAGENTS_OVERDOSE_CRITICAL
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(
+
+	)
+	flags = REAGENT_SCANNABLE
+
+/datum/reagent/spore_fruit_resin
+	name = "Spore Fruit Resin"
+	id = "spore_fruit_resin"
+	description = "A strange orange fluid found in certain xenomorphic structures. Seems to have reenergizing properties."
+	reagent_state = LIQUID
+	nutriment_factor = 15 * REAGENTS_METABOLISM
+	color = "#914011"
+	overdose = MED_REAGENTS_OVERDOSE
+	overdose_critical = MED_REAGENTS_OVERDOSE_CRITICAL
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(
+
+	)
+	flags = REAGENT_SCANNABLE
+
+/datum/reagent/speed_fruit_resin
+	name = "Speed Fruit Resin"
+	id = "speed_fruit_resin"
+	description = "A strange purple fluid found in certain xenomorphic structures. Seems to have strong stimulating properties, better not test it."
+	reagent_state = LIQUID
+	nutriment_factor = 15 * REAGENTS_METABOLISM
+	color = "#551e85"
+	overdose = MED_REAGENTS_OVERDOSE
+	overdose_critical = MED_REAGENTS_OVERDOSE_CRITICAL
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(
+		PROPERTY_ADDICTIVE = 1,
+		PROPERTY_HALLUCINOGENIC = 6,
+		PROPERTY_EMETIC = 6,
+		PROPERTY_MUSCLESTIMULATING = 3,
+	)
+	flags = REAGENT_SCANNABLE
+
+/datum/reagent/plasma_fruit_resin
+	name = "Plasma Fruit Resin"
+	id = "plasma_fruit_resin"
+	description = "A strange blue fluid found in certain xenomorphic structures. It seems to glow with determination."
+	reagent_state = LIQUID
+	nutriment_factor = 15 * REAGENTS_METABOLISM
+	color = "#227187"
+	overdose = MED_REAGENTS_OVERDOSE
+	overdose_critical = MED_REAGENTS_OVERDOSE_CRITICAL
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(
+		PROPERTY_NEUROCRYOGENIC = 3,
+	)
 	flags = REAGENT_SCANNABLE
