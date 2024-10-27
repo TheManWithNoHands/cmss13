@@ -174,7 +174,7 @@
 	role_name = "Heavy Sniper"
 	skill_to_give = SKILL_SPEC_SNIPER
 	trait_to_give = "antimat_sniper"
-	kit_typepath = /obj/item/storage/box/spec/sniper/anti_materiel
+	kit_typepath = /obj/item/storage/box/spec/sniper/antimaterial
 	incompatible_sets = list(
 		/datum/specialist_set/sniper,
 	)

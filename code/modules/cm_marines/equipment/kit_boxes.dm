@@ -70,25 +70,21 @@
 	// spotter
 	new /obj/item/storage/box/kit/spotter(src)
 
-/obj/item/storage/box/spec/sniper/anti_materiel/fill_preset_inventory()
-	name = "\improper AMR equipment case"
-	desc = "A large case containing an experimental XM43E1, a set of M45 ghillie armor and helmet, an M42 scout sight, ammunition, a set of spotter gear, and additional pieces of equipment.\nDrag this sprite onto yourself to open it up! NOTE: You cannot put items back inside this case."
-	new /obj/item/clothing/suit/storage/marine/ghillie(src)
-	new /obj/item/clothing/head/helmet/marine/ghillie(src)
-	new /obj/item/clothing/glasses/night/m42_night_goggles(src)
+
+/obj/item/storage/box/spec/sniper/antimaterial/fill_preset_inventory()
+	desc = "A large case containing an experimental XM43E1, XM-3VL pattern marksman helmet, XM-3VL pattern fire support vest, ammunition, a set of spotter gear, and additional pieces of equipment.\nDrag this sprite onto yourself to open it up! NOTE: You cannot put items back inside this case."
+	new /obj/item/clothing/suit/storage/marine/light/vest/xm43e1_vest(src)
+	new /obj/item/clothing/head/helmet/marine/xm43e1(src)
 	new /obj/item/weapon/gun/rifle/sniper/XM43E1(src)
 	new /obj/item/ammo_magazine/sniper/anti_materiel(src)
 	new /obj/item/ammo_magazine/sniper/anti_materiel(src)
 	new /obj/item/ammo_magazine/sniper/anti_materiel(src)
 	new /obj/item/ammo_magazine/sniper/anti_materiel(src)
 	new /obj/item/ammo_magazine/sniper/anti_materiel(src)
-	new /obj/item/storage/backpack/marine/smock(src)
 	new /obj/item/weapon/gun/pistol/vp78(src)
 	new /obj/item/ammo_magazine/pistol/vp78(src)
 	new /obj/item/ammo_magazine/pistol/vp78(src)
 	new /obj/item/facepaint/sniper(src)
-	// spotter
-	new /obj/item/storage/box/kit/spotter(src)
 
 /obj/item/storage/box/spec/scout
 	name = "\improper Scout equipment case"
